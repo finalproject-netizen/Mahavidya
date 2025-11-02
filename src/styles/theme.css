@@ -1,0 +1,30 @@
+:root {
+  --color-bg: #000000;
+  --color-text: #ffffff;
+  --color-maroon: #450000;
+  --color-maroon-hover: #2A0001;
+  --radius-btn: 5px;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Merriweather', serif;
+}
+
+button {
+  background-color: var(--color-maroon);
+  color: var(--color-text);
+  border: 2px solid var(--color-maroon-hover);
+  border-radius: var(--radius-btn);
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--color-maroon-hover);
+  transform: scale(1.03);
+}
