@@ -1,0 +1,9 @@
+:root {
+  --bg-color: #000000;
+  --text-color: #ffffff;
+  --accent-color: #450000;
+  --hover-color: #2A0001;
+  --font-title: 'Merriweather', serif;
+  --font-body: 'Titillium Web', sans-serif;
+  --border-radius: 5px;
+}
